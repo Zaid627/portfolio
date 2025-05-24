@@ -20,7 +20,7 @@ export const Project = () =>{
                         <div className="flex flex-wrap gap-2 mb-4">
                             {["Next.JS ,","Node.JS ,","MongoDB ,","Next auth ,",
                                 "Google cloud ,","Framer motion ,","Stripe ,",
-                                "formidable ,","tailwindcss ,"].map((tech, key)=>(
+                                "Formidable ,","Tailwindcss ,"].map((tech, key)=>(
                                     <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 
@@ -45,8 +45,8 @@ export const Project = () =>{
                             delete food and manage food prices. The project Tools mention blow. 
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["Next.JS ,","Node.JS ,","MongoDB ,","Next auth ,"
-                                ,"tailwindcss ,"].map((tech, key)=>(
+                            {["Next.JS ,","Node.JS ,","MongoDB ,"
+                                ,"Tailwindcss ,"].map((tech, key)=>(
                                     <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 
@@ -71,7 +71,7 @@ export const Project = () =>{
                             user write his daily tasks on it and delete done tasks. The project Tools mention blow. 
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["Next.JS","tailwindcss ,"].map((tech, key)=>(
+                            {["Next.JS ,","Tailwindcss ,"].map((tech, key)=>(
                                     <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 
@@ -96,7 +96,7 @@ export const Project = () =>{
                             The project Tools mention blow. 
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {["Next.JS","tailwindcss ,", "Reduct Toolkit"].map((tech, key)=>(
+                            {["Next.JS ,","Tailwindcss ,", "Reduct Toolkit"].map((tech, key)=>(
                                     <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 
